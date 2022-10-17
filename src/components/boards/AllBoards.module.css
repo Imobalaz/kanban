@@ -1,0 +1,47 @@
+.count {
+  margin: 15px auto 19px;
+  padding-left: 34px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: left;
+  color: var(--mid-grey);
+}
+
+.add_board {
+  color: var(--main-purple);
+  padding: 14px 32px 15px;
+  cursor: pointer;
+  border-radius: 0px 100px 100px 0px;
+  margin-right: 24px
+}
+
+.add_board.dark:hover {
+  background: var(--white);
+}
+
+.add_board.dark:hover p, .add_board.dark:hover svg {
+  color: var(--main-purple);
+}
+
+.add_board:hover {
+    background: var(--main-purple-hover);
+        color: var(--white);
+}
+
+.add_board:hover p {
+      color: var(--white);
+}
+
+.add_board p {
+  display: inline;
+  margin-left: 16px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--main-purple);
+}
+
